@@ -1,7 +1,7 @@
 {
   "name": "joie-request-header-parser",
   "version": "0.0.1",
-  "description": "Microservice that gets ip address and system infos for a given device",
+  "description": "Microservice that returns ip address and system infos for a given device",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
