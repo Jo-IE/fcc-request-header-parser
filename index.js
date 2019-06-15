@@ -2,12 +2,12 @@ var express = require("express");
 var router = express.Router();
 
 
-router.use(express.static('public'));
+router.use(express.static("public"));
 router.get("/", function(req, res){
     res.sendFile(__dirname + "/views/index.html")
 })
 
-router.get("/", function(req, res){
+router.get("/whoami", function(req, res){
     //console.log(req.headers)
     var lang = req.header('accept-language')
     var software = req.header("user-agent")
