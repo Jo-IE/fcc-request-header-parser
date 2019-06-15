@@ -1,0 +1,29 @@
+{
+  "name": "joie-request-header-parser",
+  "version": "0.0.1",
+  "description": "Microservice that gets ip address and system infos for a given device",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jo-IE/fcc-request-header-parser.git"
+  },
+  "keywords": [
+    "request",
+    "header",
+    "parser",
+    "fcc",
+    "api"
+  ],
+  "author": "Jo-IE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jo-IE/fcc-request-header-parser/issues"
+  },
+  "homepage": "https://github.com/Jo-IE/fcc-request-header-parser#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
